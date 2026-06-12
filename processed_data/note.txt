@@ -1,0 +1,10 @@
+| File                             | Ý nghĩa                                         | Dùng để làm gì                                                |
+| -------------------------------- | ----------------------------------------------- | ------------------------------------------------------------- |
+| `train_clean.csv`                | Tập huấn luyện chính, lấy từ dataset gốc có dấu | Dùng để train model cơ bản                                    |
+| `val_clean.csv`                  | Tập validation                                  | Dùng để kiểm tra mô hình trong quá trình chọn mô hình/tham số |
+| `test_clean.csv`                 | Tập test chính                                  | Dùng để đánh giá cuối cùng trên dữ liệu gốc                   |
+| `train_with_aug_clean.csv`       | Tập train gốc + dữ liệu augment không dấu       | Dùng để train model robust hơn với văn bản không dấu          |
+| `aug_test_clean.csv`             | Tập test không dấu tương ứng với test set       | Dùng để kiểm tra mô hình xử lý input không dấu tốt không      |
+| `data_preprocessing_summary.csv` | File thống kê tổng quan sau xử lí               | Dùng để đưa số liệu vào báo cáo                               |
+======================================================================================================================================================
+

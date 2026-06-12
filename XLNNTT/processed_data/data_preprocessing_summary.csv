@@ -1,0 +1,2 @@
+﻿main_dataset_rows,augment_dataset_rows,train_rows,validation_rows,test_rows,aug_train_rows,train_with_aug_rows,aug_test_rows,train_label_distribution,validation_label_distribution,test_label_distribution,train_with_aug_label_distribution,use_underthesea
+9599,1348,6719,1440,1440,935,7654,192,"{'negative': 4175, 'positive': 2544}","{'negative': 895, 'positive': 545}","{'negative': 895, 'positive': 545}","{'negative': 4654, 'positive': 3000}",True
