@@ -12,7 +12,7 @@
 
 ```powershell
 
-C:\\Users\\tuanh\\Downloads\\XLNNTT
+C:\Users\tuanh\Downloads\XLNNTT
 
 ```
 
@@ -152,7 +152,7 @@ XLNNTT/
 
 ```powershell
 
-cd .\\XLNNTT\\src
+cd .\XLNNTT\src
 
 ```
 
@@ -168,7 +168,7 @@ cd .\\XLNNTT\\src
 
 ```powershell
 
-python train\_baseline.py
+python train_baseline.py
 
 ```
 
@@ -210,7 +210,7 @@ Model sẽ được lưu vào:
 
 ```powershell
 
-python train\_svm.py
+python train_svm.py
 
 ```
 
@@ -236,7 +236,7 @@ Model sẽ được lưu vào:
 
 ```text
 
-../models/svm\_model.pkl
+../models/svm\model.pkl
 
 ```
 
@@ -294,7 +294,7 @@ exit
 
 ```powershell
 
-python compare\_models.py
+python compare_models.py
 
 ```
 
@@ -535,6 +535,10 @@ Possible upgrades:
 
 
 Vietnamese NLP Sentiment Analysis Project
+
+\# 18. Explain
+
+python explain_model.py
 
 
 
