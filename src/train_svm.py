@@ -57,7 +57,10 @@ X_train, X_test, y_train, y_test = train_test_split(
     random_state=42,
     stratify=df[LABEL_COL]
 )
-
+print("===== TRAIN INFO =====")
+print("Train reviews:", len(X_train))
+print("Test reviews:", len(X_test))
+print("Total reviews:", len(X))
 print("Train size:", len(X_train))
 print("Test size:", len(X_test))
 
